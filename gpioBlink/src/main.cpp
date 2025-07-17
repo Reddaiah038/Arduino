@@ -15,7 +15,7 @@ void blink(){
 
 void delay(){
     //creating delay
-    for(volatile long i=0; i<100000; i++)
+    for(volatile long i=0; i<100000; i++);
 }
 
 
